@@ -9,7 +9,7 @@ fi
 alias kg='kubectl get'
 alias kdel='kubectl delete'
 alias kucx='kubectl config use-context'
-alias kgcx='kubectl config get-context'
+alias kgcx='kubectl config get-contexts'
 
 # Pods
 alias kgp='kubectl get pods'
