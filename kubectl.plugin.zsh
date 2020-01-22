@@ -26,3 +26,6 @@ alias kds="kubectl describe service"
 # Ingress
 alias kgd="kubectl get ingress"
 alias kdd="kubectl describe ingress"
+
+# Apply
+alias ka="kubectl apply -f"
