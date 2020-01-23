@@ -7,6 +7,7 @@ fi
 
 # Utility
 alias kg='kubectl get'
+alias kd='kubectl describe'
 alias kdel='kubectl delete'
 alias kucx='kubectl config use-context'
 alias kgcx='kubectl config get-contexts'
@@ -29,3 +30,7 @@ alias kdd="kubectl describe ingress"
 
 # Apply
 alias ka="kubectl apply -f"
+
+# Logs
+alias kl="kubectl logs"
+alias klf="kubectl logs -f"
