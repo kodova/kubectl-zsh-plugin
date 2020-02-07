@@ -11,6 +11,7 @@ alias kd='kubectl describe'
 alias kdel='kubectl delete'
 alias kucx='kubectl config use-context'
 alias kgcx='kubectl config get-contexts'
+aliea kscn='kubectl config set-context --current --namespace'
 
 # Pods
 alias kgp='kubectl get pods'
